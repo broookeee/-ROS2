@@ -1,0 +1,5 @@
+[console_scripts]
+cam_pub = mngr_fr_pkg.cam_pub:main
+greet_user = mngr_fr_pkg.greet_user:main
+img_sub = mngr_fr_pkg.img_sub:main
+update_users = mngr_fr_pkg.update_users:main

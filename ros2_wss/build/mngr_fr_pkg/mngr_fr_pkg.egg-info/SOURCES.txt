@@ -1,0 +1,15 @@
+package.xml
+setup.cfg
+setup.py
+mngr_fr_pkg/__init__.py
+mngr_fr_pkg/cam_pub.py
+mngr_fr_pkg/greet_user.py
+mngr_fr_pkg/img_sub.py
+mngr_fr_pkg/update_users.py
+mngr_fr_pkg.egg-info/PKG-INFO
+mngr_fr_pkg.egg-info/SOURCES.txt
+mngr_fr_pkg.egg-info/dependency_links.txt
+mngr_fr_pkg.egg-info/entry_points.txt
+mngr_fr_pkg.egg-info/requires.txt
+mngr_fr_pkg.egg-info/top_level.txt
+resource/mngr_fr_pkg

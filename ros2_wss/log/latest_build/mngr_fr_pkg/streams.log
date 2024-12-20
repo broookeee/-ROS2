@@ -1,0 +1,27 @@
+[0.711s] Invoking command in '/root/ros2_wss/build/mngr_fr_pkg': PYTHONPATH=/root/ros2_wss/build/mngr_fr_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/ros2_wss/install/mngr_fr_pkg/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /root/ros2_wss/build/mngr_fr_pkg/build --no-deps symlink_data
+[0.922s] running develop
+[1.051s] running egg_info
+[1.051s] creating mngr_fr_pkg.egg-info
+[1.065s] writing mngr_fr_pkg.egg-info/PKG-INFO
+[1.065s] writing dependency_links to mngr_fr_pkg.egg-info/dependency_links.txt
+[1.065s] writing entry points to mngr_fr_pkg.egg-info/entry_points.txt
+[1.065s] writing requirements to mngr_fr_pkg.egg-info/requires.txt
+[1.065s] writing top-level names to mngr_fr_pkg.egg-info/top_level.txt
+[1.066s] writing manifest file 'mngr_fr_pkg.egg-info/SOURCES.txt'
+[1.092s] reading manifest file 'mngr_fr_pkg.egg-info/SOURCES.txt'
+[1.092s] writing manifest file 'mngr_fr_pkg.egg-info/SOURCES.txt'
+[1.107s] running build_ext
+[1.107s] Creating /root/ros2_wss/install/mngr_fr_pkg/lib/python3.12/site-packages/mngr-fr-pkg.egg-link (link to .)
+[1.108s] Installing cam_pub script to /root/ros2_wss/install/mngr_fr_pkg/lib/mngr_fr_pkg
+[1.108s] Installing greet_user script to /root/ros2_wss/install/mngr_fr_pkg/lib/mngr_fr_pkg
+[1.108s] Installing img_sub script to /root/ros2_wss/install/mngr_fr_pkg/lib/mngr_fr_pkg
+[1.109s] Installing update_users script to /root/ros2_wss/install/mngr_fr_pkg/lib/mngr_fr_pkg
+[1.109s] 
+[1.109s] Installed /root/ros2_wss/build/mngr_fr_pkg
+[1.109s] running symlink_data
+[1.109s] creating /root/ros2_wss/install/mngr_fr_pkg/share/ament_index
+[1.109s] creating /root/ros2_wss/install/mngr_fr_pkg/share/ament_index/resource_index
+[1.109s] creating /root/ros2_wss/install/mngr_fr_pkg/share/ament_index/resource_index/packages
+[1.109s] symbolically linking /root/ros2_wss/build/mngr_fr_pkg/resource/mngr_fr_pkg -> /root/ros2_wss/install/mngr_fr_pkg/share/ament_index/resource_index/packages
+[1.110s] symbolically linking /root/ros2_wss/build/mngr_fr_pkg/package.xml -> /root/ros2_wss/install/mngr_fr_pkg/share/mngr_fr_pkg
+[1.137s] Invoked command in '/root/ros2_wss/build/mngr_fr_pkg' returned '0': PYTHONPATH=/root/ros2_wss/build/mngr_fr_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/ros2_wss/install/mngr_fr_pkg/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /root/ros2_wss/build/mngr_fr_pkg/build --no-deps symlink_data
