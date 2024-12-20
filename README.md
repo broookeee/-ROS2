@@ -9,13 +9,17 @@
    1.2. Установите необходимые библиотеки:
    
     sudo apt update
+   
     sudo apt install python3-pip python3-venv python3-colcon-common-extensions
+   
     pip3 install setuptools empy gttts pygame opencv-python-headless
    
 3. Создание структуры пакета:
    
    2.1. Создайте директорию проекта ROS2.
+   
          mkdir -p ~/ros2_ws/src/mngr_fr_pkg
+   
          cd ~/ros2_ws/src/mngr_fr_pkg
    
    2.2. Создайте следующие файлы и каталоги:
@@ -25,7 +29,7 @@
         · resource/mngr_fr_pkg (пустой файл с именем пакета)
         · Каталог mngr_fr_pkg с файлами __init__.py, img_sub.py, cam_pub.py, update_users.py, greet_user.py.
    
-4. Файлы пакета:
+5. Файлы пакета:
    
    3.1. Файл setup.py:
 
@@ -79,7 +83,7 @@
          install_scripts=$base/lib/mngr_fr_pkg
 
 
-5. Реализация узлов ROS2:
+6. Реализация узлов ROS2:
    
    4.1. Файл cam_pub.py:
 
