@@ -1,5 +1,7 @@
 1. Подготовка среды:
+   
    1.1. Установите ROS2:
+   
     ·Если ROS2 еще не установлен, следуйте официальной документации ROS2 для установки подходящей версии для вашей системы.
     ·Убедитесь, что установлены зависимости: colcon, python3, pip.
    
@@ -8,17 +10,22 @@
     sudo apt update
     sudo apt install python3-pip python3-venv python3-colcon-common-extensions
     pip3 install setuptools empy gttts pygame opencv-python-headless
+   
 2. Создание структуры пакета:
+   
    2.1. Создайте директорию проекта ROS2.
          mkdir -p ~/ros2_ws/src/mngr_fr_pkg
          cd ~/ros2_ws/src/mngr_fr_pkg
+   
    2.2. Создайте следующие файлы и каталоги:
         · package.xml
         · setup.py
         · setup.cfg
         · resource/mngr_fr_pkg (пустой файл с именем пакета)
         · Каталог mngr_fr_pkg с файлами __init__.py, img_sub.py, cam_pub.py, update_users.py, greet_user.py.
+   
 3. Файлы пакета:
+   
    3.1. Файл setup.py:
 
          from setuptools import setup
@@ -44,6 +51,7 @@
              },
              description="A face recognition package for the office manager robot",
          )
+   
    3.2. Файл package.xml:
          
          <?xml version="1.0"?>
@@ -60,6 +68,7 @@
                  <build_type>ament_python</build_type>
              </export>
          </package>
+   
    3.3. Файл setup.cfg:
 
          [develop]
@@ -70,6 +79,7 @@
 
 
 4. Реализация узлов ROS2:
+   
    4.1. Файл cam_pub.py:
 
          import cv2
@@ -218,6 +228,7 @@
              rclpy.init(args=args)
 
 5. Сборка и запуск пакета:
+   
    5.1. Перейдите в рабочую область ROS2:
 
       cd ~/ros2_ws
