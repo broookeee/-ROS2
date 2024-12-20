@@ -23,10 +23,15 @@
          cd ~/ros2_ws/src/mngr_fr_pkg
    
    2.2. Создайте следующие файлы и каталоги:
+   
         · package.xml
+   
         · setup.py
+   
         · setup.cfg
+   
         · resource/mngr_fr_pkg (пустой файл с именем пакета)
+   
         · Каталог mngr_fr_pkg с файлами __init__.py, img_sub.py, cam_pub.py, update_users.py, greet_user.py.
    
 5. Файлы пакета:
